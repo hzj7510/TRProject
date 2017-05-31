@@ -13,6 +13,21 @@
 		0474C67A1ED7CB260054F222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474C6781ED7CB260054F222 /* Main.storyboard */; };
 		0474C67C1ED7CB260054F222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0474C67B1ED7CB260054F222 /* Assets.xcassets */; };
 		0474C67F1ED7CB260054F222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0474C67D1ED7CB260054F222 /* LaunchScreen.storyboard */; };
+		0474C6901ED7CF4E0054F222 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C68F1ED7CF4E0054F222 /* LoginViewController.m */; };
+		0474C6981ED7D3760054F222 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6971ED7D3760054F222 /* LoginView.m */; };
+		0474C69B1ED7D5700054F222 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C69A1ED7D5700054F222 /* RegisterViewController.m */; };
+		0474C69E1ED7D5810054F222 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C69D1ED7D5810054F222 /* RegisterView.m */; };
+		0474C6A41ED7D6790054F222 /* NSString+Base64Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6A31ED7D6790054F222 /* NSString+Base64Code.m */; };
+		0474C6AA1ED801AE0054F222 /* RightBtnTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6A91ED801AE0054F222 /* RightBtnTextField.m */; };
+		0474C6AC1ED812790054F222 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0474C6AB1ED812790054F222 /* FontAwesome.ttf */; };
+		0474C6B61ED812F20054F222 /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6AF1ED812F20054F222 /* FAImageView.m */; };
+		0474C6B71ED812F20054F222 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6B11ED812F20054F222 /* NSString+FontAwesome.m */; };
+		0474C6B81ED812F20054F222 /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6B31ED812F20054F222 /* UIFont+FontAwesome.m */; };
+		0474C6B91ED812F20054F222 /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6B51ED812F20054F222 /* UIImage+FontAwesome.m */; };
+		0474C6BC1ED82F0E0054F222 /* RegisterPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6BB1ED82F0E0054F222 /* RegisterPasswordViewController.m */; };
+		0474C6BF1ED82F6C0054F222 /* RegisterPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6BE1ED82F6C0054F222 /* RegisterPasswordView.m */; };
+		0474C6C81ED834AC0054F222 /* NSString+Re.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474C6C71ED834AC0054F222 /* NSString+Re.m */; };
+		04D7736D1ED91B69000641C5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7736C1ED91B69000641C5 /* NSString+MD5.m */; };
 		BB85410373131AF043D2716F /* libPods-RTProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA6609600F89E8E2A7AF767 /* libPods-RTProject.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +42,37 @@
 		0474C67B1ED7CB260054F222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0474C67E1ED7CB260054F222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0474C6801ED7CB260054F222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0474C68E1ED7CF4E0054F222 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0474C68F1ED7CF4E0054F222 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0474C6931ED7CF960054F222 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0474C6941ED7D1FA0054F222 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0474C6961ED7D3760054F222 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		0474C6971ED7D3760054F222 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		0474C6991ED7D5700054F222 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		0474C69A1ED7D5700054F222 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		0474C69C1ED7D5810054F222 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		0474C69D1ED7D5810054F222 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		0474C6A21ED7D6790054F222 /* NSString+Base64Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Code.h"; sourceTree = "<group>"; };
+		0474C6A31ED7D6790054F222 /* NSString+Base64Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Code.m"; sourceTree = "<group>"; };
+		0474C6A81ED801AE0054F222 /* RightBtnTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightBtnTextField.h; sourceTree = "<group>"; };
+		0474C6A91ED801AE0054F222 /* RightBtnTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightBtnTextField.m; sourceTree = "<group>"; };
+		0474C6AB1ED812790054F222 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		0474C6AE1ED812F20054F222 /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		0474C6AF1ED812F20054F222 /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		0474C6B01ED812F20054F222 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		0474C6B11ED812F20054F222 /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		0474C6B21ED812F20054F222 /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		0474C6B31ED812F20054F222 /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		0474C6B41ED812F20054F222 /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		0474C6B51ED812F20054F222 /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		0474C6BA1ED82F0D0054F222 /* RegisterPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPasswordViewController.h; sourceTree = "<group>"; };
+		0474C6BB1ED82F0E0054F222 /* RegisterPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPasswordViewController.m; sourceTree = "<group>"; };
+		0474C6BD1ED82F6C0054F222 /* RegisterPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterPasswordView.h; sourceTree = "<group>"; };
+		0474C6BE1ED82F6C0054F222 /* RegisterPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPasswordView.m; sourceTree = "<group>"; };
+		0474C6C61ED834AC0054F222 /* NSString+Re.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Re.h"; sourceTree = "<group>"; };
+		0474C6C71ED834AC0054F222 /* NSString+Re.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Re.m"; sourceTree = "<group>"; };
+		04D7736B1ED91B69000641C5 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		04D7736C1ED91B69000641C5 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		44C151C64980D4B06FF76370 /* Pods-RTProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RTProject/Pods-RTProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8DA6609600F89E8E2A7AF767 /* libPods-RTProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E141EE0C6EBF9C56EE66B7A8 /* Pods-RTProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RTProject/Pods-RTProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +119,13 @@
 				0474C67B1ED7CB260054F222 /* Assets.xcassets */,
 				0474C67D1ED7CB260054F222 /* LaunchScreen.storyboard */,
 				0474C6801ED7CB260054F222 /* Info.plist */,
+				0474C6861ED7CEE40054F222 /* Controllers */,
+				0474C6871ED7CEE40054F222 /* Extension */,
+				0474C6881ED7CEE40054F222 /* Models */,
+				0474C6891ED7CEE40054F222 /* Static */,
+				0474C68A1ED7CEE40054F222 /* Vendors */,
+				0474C68B1ED7CEE40054F222 /* ViewModels */,
+				0474C68C1ED7CEE40054F222 /* Views */,
 				0474C66F1ED7CB260054F222 /* Supporting Files */,
 			);
 			path = RTProject;
@@ -84,6 +137,110 @@
 				0474C6701ED7CB260054F222 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0474C6861ED7CEE40054F222 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0474C68D1ED7CF3A0054F222 /* Users */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0474C6871ED7CEE40054F222 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6A21ED7D6790054F222 /* NSString+Base64Code.h */,
+				0474C6A31ED7D6790054F222 /* NSString+Base64Code.m */,
+				0474C6A81ED801AE0054F222 /* RightBtnTextField.h */,
+				0474C6A91ED801AE0054F222 /* RightBtnTextField.m */,
+				0474C6C61ED834AC0054F222 /* NSString+Re.h */,
+				0474C6C71ED834AC0054F222 /* NSString+Re.m */,
+				04D7736B1ED91B69000641C5 /* NSString+MD5.h */,
+				04D7736C1ED91B69000641C5 /* NSString+MD5.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0474C6881ED7CEE40054F222 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0474C6891ED7CEE40054F222 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6AB1ED812790054F222 /* FontAwesome.ttf */,
+				0474C6931ED7CF960054F222 /* PrefixHeader.pch */,
+				0474C6941ED7D1FA0054F222 /* Header.h */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		0474C68A1ED7CEE40054F222 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6AD1ED812E90054F222 /* FontAwesome */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		0474C68B1ED7CEE40054F222 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0474C68C1ED7CEE40054F222 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6951ED7D21E0054F222 /* Users */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0474C68D1ED7CF3A0054F222 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0474C68E1ED7CF4E0054F222 /* LoginViewController.h */,
+				0474C68F1ED7CF4E0054F222 /* LoginViewController.m */,
+				0474C6991ED7D5700054F222 /* RegisterViewController.h */,
+				0474C69A1ED7D5700054F222 /* RegisterViewController.m */,
+				0474C6BA1ED82F0D0054F222 /* RegisterPasswordViewController.h */,
+				0474C6BB1ED82F0E0054F222 /* RegisterPasswordViewController.m */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		0474C6951ED7D21E0054F222 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6961ED7D3760054F222 /* LoginView.h */,
+				0474C6971ED7D3760054F222 /* LoginView.m */,
+				0474C69C1ED7D5810054F222 /* RegisterView.h */,
+				0474C69D1ED7D5810054F222 /* RegisterView.m */,
+				0474C6BD1ED82F6C0054F222 /* RegisterPasswordView.h */,
+				0474C6BE1ED82F6C0054F222 /* RegisterPasswordView.m */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		0474C6AD1ED812E90054F222 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				0474C6AE1ED812F20054F222 /* FAImageView.h */,
+				0474C6AF1ED812F20054F222 /* FAImageView.m */,
+				0474C6B01ED812F20054F222 /* NSString+FontAwesome.h */,
+				0474C6B11ED812F20054F222 /* NSString+FontAwesome.m */,
+				0474C6B21ED812F20054F222 /* UIFont+FontAwesome.h */,
+				0474C6B31ED812F20054F222 /* UIFont+FontAwesome.m */,
+				0474C6B41ED812F20054F222 /* UIImage+FontAwesome.h */,
+				0474C6B51ED812F20054F222 /* UIImage+FontAwesome.m */,
+			);
+			path = FontAwesome;
 			sourceTree = "<group>";
 		};
 		BB8E81884CD916A3DA7280B0 /* Pods */ = {
@@ -166,6 +323,7 @@
 				0474C67F1ED7CB260054F222 /* LaunchScreen.storyboard in Resources */,
 				0474C67C1ED7CB260054F222 /* Assets.xcassets in Resources */,
 				0474C67A1ED7CB260054F222 /* Main.storyboard in Resources */,
+				0474C6AC1ED812790054F222 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +382,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474C6901ED7CF4E0054F222 /* LoginViewController.m in Sources */,
+				0474C69B1ED7D5700054F222 /* RegisterViewController.m in Sources */,
 				0474C6771ED7CB260054F222 /* ViewController.m in Sources */,
+				0474C6A41ED7D6790054F222 /* NSString+Base64Code.m in Sources */,
+				04D7736D1ED91B69000641C5 /* NSString+MD5.m in Sources */,
+				0474C6B71ED812F20054F222 /* NSString+FontAwesome.m in Sources */,
 				0474C6741ED7CB260054F222 /* AppDelegate.m in Sources */,
+				0474C6BC1ED82F0E0054F222 /* RegisterPasswordViewController.m in Sources */,
+				0474C6981ED7D3760054F222 /* LoginView.m in Sources */,
+				0474C6BF1ED82F6C0054F222 /* RegisterPasswordView.m in Sources */,
 				0474C6711ED7CB260054F222 /* main.m in Sources */,
+				0474C6C81ED834AC0054F222 /* NSString+Re.m in Sources */,
+				0474C6B61ED812F20054F222 /* FAImageView.m in Sources */,
+				0474C6B91ED812F20054F222 /* UIImage+FontAwesome.m in Sources */,
+				0474C69E1ED7D5810054F222 /* RegisterView.m in Sources */,
+				0474C6AA1ED801AE0054F222 /* RightBtnTextField.m in Sources */,
+				0474C6B81ED812F20054F222 /* UIFont+FontAwesome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +509,8 @@
 			baseConfigurationReference = 44C151C64980D4B06FF76370 /* Pods-RTProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Static/PrefixHeader.pch";
 				INFOPLIST_FILE = RTProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = x5.RTProject;
@@ -349,6 +523,8 @@
 			baseConfigurationReference = E141EE0C6EBF9C56EE66B7A8 /* Pods-RTProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Static/PrefixHeader.pch";
 				INFOPLIST_FILE = RTProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = x5.RTProject;
